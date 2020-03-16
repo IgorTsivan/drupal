@@ -1,0 +1,97 @@
+@media(min-width:500px){
+    .pricing{
+        .price_block_container{
+            .price_block_info{
+                max-width: 330px;
+                margin: 20px;
+                padding: 40px 70px;
+            }
+        }
+    } 
+    .about_app{
+        .about_block_container{
+            .about_block_info{
+                max-width: 330px;
+                margin: 20px;
+            }
+        }
+    }  
+}
+
+@media(min-width:768px){
+    .header{
+        padding-top: 80px;
+        .header_content_block{
+            .phone_img{
+                text-align: left;
+            }
+            .header_description{
+                color: #fff;
+                padding: 0;
+                text-align: right;
+            }   
+        }
+        .nav{
+            .nav_list{
+                display: block;
+                
+            }
+            .btn_forFree{
+                margin-top: 0px;
+            }
+        }
+        .btn_menu_close {
+            display: none;
+        }
+        .btn_menu_open{
+            display: none;
+        }
+    } 
+    .future_app{
+        .future_desctiption{
+            .future_block{
+                flex-direction: row;
+                margin-left: 100px;
+
+                .futere_img{
+                    margin:0 0 50px 0;
+                }
+                .future_text{
+                    max-width: 550px;
+                    margin-left: 40px;
+                    text-align: left;
+                    padding-right: 25px;
+                }
+            }
+        }
+    } 
+    .contact_section {
+        .contact_form{
+            flex-direction: row;
+            align-items: flex-start;
+            text-align: left;
+            .form_info{
+                width: 35%;
+            }
+            .form{
+                width: 60%;
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+@media(min-width:951px){
+    .contact_section{
+        .contact_form {
+            .form textarea{
+                height: 152px;
+            }
+            .form_info{
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+    } 
+}
